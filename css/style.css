@@ -1,0 +1,59 @@
+/*
+* @Author: dongjiabo
+* @Date:   2016-03-16 18:25:14
+* @Last Modified by:   dongjiabo
+* @Last Modified time: 2016-03-16 19:28:47
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+#tab {
+    width: 500px;
+    height: 350px;
+    margin: 30px auto 0;
+    font-family: "Microsoft Yahei";
+}
+
+#tab > .tab-title-box {
+    width: 100%;
+    height: 30px;
+}
+
+#tab > .tab-title-box > .tab-title-list {
+    float: left;
+    width: 25%;
+    height: 30px;
+    background-color: #E8E8E8;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+}
+
+#tab > .tab-title-box > .tab-title-list:nth-child(1) {
+    background-color: #222;
+    color: #fff;
+}
+
+#tab > .tab-content-box {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+#tab > .tab-content-box > .tab-content-list {
+    width: 100%;
+}
+
+#tab > .tab-content-box > .tab-content-list > img {
+    width: 100%;
+}
